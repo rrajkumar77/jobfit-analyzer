@@ -1,0 +1,14 @@
+# Core app
+streamlit>=1.61,<2.0
+python-dotenv>=1.2,<2.0
+pandas>=3.0,<4.0
+
+# LLM
+groq>=1.6,<2.0
+
+# Document parsing
+pymupdf>=1.24,<2.0
+python-docx>=1.2,<2.0
+
+# Dev/test only — not required to run the app
+pytest>=9.1,<10.0
